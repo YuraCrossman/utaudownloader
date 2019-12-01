@@ -1,3 +1,2 @@
 # utaudownloader
-@это пипец  полный
-причём
+The program is designed to download voice databases for UTAU
