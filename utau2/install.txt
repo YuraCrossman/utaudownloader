@@ -1,0 +1,4 @@
+type=voiceset
+folder=Blue Trey VCV
+contentsdir=Blue Trey
+description=
