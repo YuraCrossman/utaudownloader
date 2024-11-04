@@ -63,7 +63,7 @@ end;
 
 procedure TForm5.FormCreate(Sender: TObject);
 begin
-  ADOConnection1.ConnectionString:='Provider=Microsoft.Jet.OLEDB.4.0;Data Source='+extractfilepath(application.ExeName)+'ust;Persist Security Info=False;Jet OLEDB:Database Password=123456YuraCrossman;';
+  ADOConnection1.ConnectionString:='Provider=Microsoft.Jet.OLEDB.4.0;Data Source='+extractfilepath(application.ExeName)+'ust;Persist Security Info=False;Jet OLEDB:Database Password=;';
   ADOConnection1.Connected:=True;
   ADOTable1.Active:=True;
 end;

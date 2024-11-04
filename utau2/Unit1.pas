@@ -278,10 +278,10 @@ begin
  IdSMTP1.Connect();
  IdSMTP1.Host:='smtp.yandex.ru';
  IdSMTP1.Port:=587;
- IdSMTP1.Username:='yura.crosman@yandex.ru';
- IdSMTP1.Password:='yuracrossman';
- IdMessage1.From.Text:='yura.crosman@yandex.ru';
- IdMessage1.Recipients.EMailAddresses:='yura.crossman@gmail.com';
+ IdSMTP1.Username:='';
+ IdSMTP1.Password:='';
+ IdMessage1.From.Text:='';
+ IdMessage1.Recipients.EMailAddresses:='';
  IdMessage1.Subject:='UTAU Downloader';
  IdSMTP1.Send(IdMessage1);
  IdSMTP1.Disconnect;
